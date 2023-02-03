@@ -1,22 +1,31 @@
+header {
+  text-align: center;
+}
+
 h1 {
   font-size: 100px;
-  padding: 0;
+  padding-top: 100px;
+  margin: 0;
+  color: white;
 }
 
 p {
   font-size: 50px;
-  ;
+  color: white;
+  text-align: center;
 }
 
 body{
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
-  margin: 150px auto 100px auto;
+  margin: 0 auto 100px auto;
 
 }
 
-.header-images {
-  background-image: url(mix.jpg);
+.header-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Images/mix.jpg");
+  padding-bottom: 40px;
+  background-repeat: no-repeat;
 }
 
 img {
@@ -31,4 +40,18 @@ img {
     text-align: center;
     line-height: 200px;
     font-size: 150px;
+}
+
+.form-input {
+  width: 400px;
+  font-size: 30px;
+  padding-right: 3%;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 25px;
+  background: transparent;
+  font-style: oblique;
+  margin: 0 auto;
 }
