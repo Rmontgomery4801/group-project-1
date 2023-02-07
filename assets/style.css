@@ -11,11 +11,11 @@ h1 {
 
 p {
   font-size: 50px;
-  color: white;
+  /* color: white; */
   text-align: center;
 }
 
-body{
+body {
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
   margin: 0 auto 100px auto;
@@ -29,17 +29,17 @@ body{
 }
 
 img {
-    display: block;
-    float: left;
-    width: 30%;
-    height: 300px;
-    margin: 1%;
-    cursor: pointer;
-    object-fit: cover;
-    border-radius: 8px;
-    text-align: center;
-    line-height: 200px;
-    font-size: 150px;
+  display: block;
+  float: left;
+  width: 30%;
+  height: 300px;
+  margin: 1%;
+  cursor: pointer;
+  object-fit: cover;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 200px;
+  font-size: 150px;
 }
 
 .form-input {
@@ -54,4 +54,13 @@ img {
   background: transparent;
   font-style: oblique;
   margin: 0 auto;
+}
+
+#recipeInfo button {
+  border-radius: 5px;
+  padding: 1.5rem;
+}
+
+#recipeInfo p {
+  font-size: 1rem;
 }
