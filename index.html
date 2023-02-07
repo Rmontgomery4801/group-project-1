@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 <!--save for font style sheet--->
     <link rel="stylesheet" href="./assets/style.css">
+    <script src="assets/script.js" defer ></script>
     <title>Food Recipe</title>
 </head>
 
@@ -21,8 +22,8 @@
         
         <div class="search">
             <form>
-                <input class="form-input" />
-                <button type="submit" class="btn" >
+                <input id="search-input" />
+                <button id="search-btn" class="btn" >
                     <i class="fas fa-search"></i></i>Get Recipe
                 </button>
             </form>
@@ -32,8 +33,8 @@
     
     
     <main><!---font location-->
-        <div></div><!---font size-->
-
+        <div id="meal-list" class="notFound"><!---font size-->
+            
 
             <div class="card">
                 <img src="./assets/Images/barbecue.png" alt="bbq">
@@ -49,7 +50,7 @@
                 <img src="./assets/Images/ice_cream.png" alt="ice_cream">
                 <span></span>
             </div>
-
+            
         </div>
     </main>
 </body>
