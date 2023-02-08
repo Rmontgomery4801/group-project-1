@@ -8,5 +8,4 @@ Is an application that can help users find a food recipe.
 
 
 
-
-Screenshots!
+![screenshot](assets/Images/screenshot.png)
