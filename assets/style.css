@@ -31,7 +31,7 @@ body {
 img {
   display: block;
   float: left;
-  width: 30%;
+  /* width: 30%; */
   height: 300px;
   margin: 1%;
   cursor: pointer;
@@ -42,10 +42,10 @@ img {
   font-size: 150px;
 }
 
-.form-input {
-  width: 400px;
-  font-size: 30px;
-  padding-right: 3%;
+#search-input {
+  width: 300px;
+  font-size: 25px;
+  padding: 0.1rem;
 }
 
 .btn {
@@ -57,10 +57,26 @@ img {
 }
 
 #recipeInfo button {
-  border-radius: 5px;
-  padding: 1.5rem;
+  display: inline-block;
+  font-size: 25px;
+  background: transparent;
+  font-style: oblique;
+  margin: 0 auto;
 }
 
 #recipeInfo p {
   font-size: 1rem;
+}
+
+#meal-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
 }

@@ -73,7 +73,7 @@ function getMealrecipe(event) {
           .getElementById("backBtn")
           .addEventListener("click", function (e) {
             recipeInfo.style.display = "none";
-            mealList.style.display = "block";
+            mealList.style.display = "flex";
           });
       });
   }
