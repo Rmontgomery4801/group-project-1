@@ -9,3 +9,7 @@ Is an application that can help users find a food recipe.
 
 Screenshot
 ![screenshot](assets/Images/screenshot.png)
+
+![screenshot2](assets/Images/screenshot2.png)
+
+![screenshot3](assets/Images/screenshot3.png)
